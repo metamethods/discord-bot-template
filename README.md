@@ -76,7 +76,7 @@ export default new Plugin({
   guildId: '000000000000000000' // The guild id to restrict the commands to
 });
 ```
-Then just add the commands and events to the `commands` and `events` arrays respectively. You can take a look in the `src/plugins/core` as an example. __DO NOT__ delete the `core` plugin as it is required for the bot to function properly.
+Then just add the commands and events to the `commands` and `events` arrays respectively. You can take a look in the `src/plugins/core` as an example. Finally import that plugin folder into the `index.ts` file in the `src/plugins` folder, and add it to the plugins array to register it.
 
 ### Creating Modals
 To create a modal that can be used in a command, create a new file in the `src/modals` folder with the following template:
