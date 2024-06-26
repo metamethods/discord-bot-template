@@ -54,7 +54,7 @@ export class Modal {
    * modal.show(interaction);
    * ```
    */
-  public async show(interaction: ChatInputCommandInteraction) {
+  public async showModal(interaction: ChatInputCommandInteraction) {
     await interaction.showModal(this.schema);
   }
 }

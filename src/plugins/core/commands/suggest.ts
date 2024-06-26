@@ -11,7 +11,7 @@ const command = new Command(
 );
 
 command.onCommand('suggest', async ({ interaction }) => {
-  await suggestion.show(interaction);
+  await suggestion.showModal(interaction);
 });
 
 export default command;
